@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Контакты</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Контакты</h1>
+    </header>
+
+    <div class="navbar">
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="about.html">О нас</a></li>
+            <li><a class="active" href="contact.html">Контакты</a></li>
+        </ul>
+    </div>
+
+    <main>
+        <h2>Свяжитесь с нами</h2>
+        <p>Здесь вы можете найти наши контактные данные:</p>
+
+        <h3>Наш адрес</h3>
+        <p>Город, Улица, Дом</p>
+
+        <h3>Наш email</h3>
+        <p><a href="mailto:info@example.com">info@example.com</a></p>
+
+        <h3>Наш телефон</h3>
+        <p>123-456-789</p>
+
+        <h3>Форма обратной связи</h3>
+        <form>
+            <label for="name">Имя:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="message">Сообщение:</label>
+            <textarea id="message" name="message" rows="4" required></textarea><br>
+
+            <input type="submit" value="Отправить">
+        </form>
+    </main>
+
+    <footer>
+        <p>© 2023 Мой сайт. Все права защищены.</p>
+    </footer>
+</body>
+</html>
